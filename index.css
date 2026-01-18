@@ -47,6 +47,7 @@ a {
 }
 .contact-socials {
   flex-wrap: wrap;
+   border: 2 px solid red ;
 }
 
 
@@ -162,6 +163,8 @@ section {
 
 .contact-socials {
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 16px;
   margin-top: 16px;
 }
@@ -274,6 +277,7 @@ section {
     width: 100%;
     flex-wrap: wrap;
     justify-content: center;
+    
   }
 
   .contact-socials a,
@@ -336,11 +340,14 @@ section {
     gap: 24px !important;
   }
 
-  .contact-socials {
-    justify-content: center;
-     /* border: 2px solid red; */
+  /* .contact-socials {
+    flex-direction: col!;
+    display: flex !important;
+    justify-content : center !important;
+     /* justify-content: center; */
+  align-items: center !important;
     
-  }
+  } */
 
   .contact-link {
     width: 100%;
@@ -691,6 +698,7 @@ small {
     padding: 6px 10px;
     font-size: 13px;
     border-radius: 8px;
+    /* border: 2 px solid red ; */
   }
 
   /* Reduce main action button */
@@ -707,5 +715,6 @@ small {
 
   .contact-socials {
     gap: 10px;
+     /* border: 2 px solid red ; */
   }
 }
