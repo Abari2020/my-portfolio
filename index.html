@@ -9,39 +9,39 @@
 </head>
 
 <body>
-<nav class="navbar">
-  <div class="nav-brand">Godswill</div>
+    <nav class="navbar">
+        <div class="nav-brand">Godswill</div>
 
-  <button class="nav-toggle" aria-label="Toggle menu">
-    ☰
-  </button>
+        <button class="nav-toggle" aria-label="Toggle menu">
+            ☰
+        </button>
 
-  <ul class="nav-links">
-    <li><a href="#home">Home</a></li>
-    <li><a href="#about">About</a></li>
-    <li><a href="#skills">Skills</a></li>
-    <li><a href="#experience">Experience</a></li>
-    <li><a href="#projects">Projects</a></li>
-    <li><a href="#education">Education</a></li>
-    <li><a href="#contact">contact</a></li>
-  </ul>
-</nav>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">contact</a></li>
+        </ul>
+    </nav>
 
-<script>
-  const toggle = document.querySelector('.nav-toggle');
-  const links = document.querySelector('.nav-links');
+    <script>
+        const toggle = document.querySelector('.nav-toggle');
+        const links = document.querySelector('.nav-links');
 
-  toggle.addEventListener('click', () => {
-    links.classList.toggle('open');
-  });
+        toggle.addEventListener('click', () => {
+            links.classList.toggle('open');
+        });
 
-  // Close menu when link is clicked (mobile UX)
-  document.querySelectorAll('.nav-links a').forEach(link => {
-    link.addEventListener('click', () => {
-      links.classList.remove('open');
-    });
-  });
-</script>
+        // Close menu when link is clicked (mobile UX)
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                links.classList.remove('open');
+            });
+        });
+    </script>
 
 
 
@@ -71,25 +71,26 @@
         <span>Angular • NestJS • PostgreSQL • MongoDB, Prisma Orm</span>
 
         <!-- CV DOWNLOAD -->
-        <a href="cv.pdf" download class="cv-btn">📄 Download CV</a>
+        <a href="GODSWILLCV.pdf" download class="cv-btn">📄 Download CV</a>
         <!-- SOCIAL LINKS -->
-<div class="socials">
-  <a href="https://github.com/AlphaGolf"  target="_blank" aria-label="GitHub" style="border: 2px solid white; wid">
-    <img src="images/icons/github.png" alt="GitHub">
-  </a>
+        <div class="socials">
+            <a href="https://github.com/AlphaGolf" target="_blank" aria-label="GitHub"
+                style="border: 2px solid white; wid">
+                <img src="images/icons/github.png" alt="GitHub">
+            </a>
 
-  <a href="https://www.linkedin.com/in/abari-godswill-978147119" target="_blank" aria-label="LinkedIn">
-    <img src="images/icons/pngwing.com.png" alt="LinkedIn">
-  </a>
-<!-- @AbariGodsw21339 -->
-  <a href="https://twitter.com/@AbariGodsw21339"  target="_blank" aria-label="Twitter / X">
-    <img src="images/icons/twiter.png" alt="X">
-  </a>
-   <a href="https://facebook" target="_blank" aria-label="Twitter / X">
-    <img src="images/icons/facebook.png" alt="X">
-  </a>
- 
-</div>
+            <a href="https://www.linkedin.com/in/abari-godswill-978147119" target="_blank" aria-label="LinkedIn">
+                <img src="images/icons/pngwing.com.png" alt="LinkedIn">
+            </a>
+            <!-- @AbariGodsw21339 -->
+            <a href="https://twitter.com/@AbariGodsw21339" target="_blank" aria-label="Twitter / X">
+                <img src="images/icons/twiter.png" alt="X">
+            </a>
+            <a href="https://facebook" target="_blank" aria-label="Twitter / X">
+                <img src="images/icons/facebook.png" alt="X">
+            </a>
+
+        </div>
 
     </header>
 
@@ -137,7 +138,7 @@
         <div class="projects">
             <div class="card hover">
                 <h3>Eboyboy – Errand App</h3>
-                  <a href="https://www.eboyboy.com/">Eboyboy</a>
+                <a href="https://www.eboyboy.com/">Eboyboy</a>
                 <p>
                     A multi-role errand management platform built with the MrSoft team i was one of the contributors.
                 </p>
@@ -145,7 +146,7 @@
             </div>
 
             <div class="card hover">
-                
+
                 <h3>ShelterLink – Real Estate Platform</h3>
                 <a href="https://www.shelterlinks.com/"> ShelterLinks</a>
                 <p>
@@ -158,7 +159,7 @@
     </section>
 
     <!-- EDUCATION -->
-    <section class="section slide-up" id="education"> 
+    <section class="section slide-up" id="education">
         <h2>Education</h2>
         <div class="card hover">
             <h3>BSc – Health & Safety</h3>
@@ -169,12 +170,15 @@
     </section>
 
     <!-- CONTACT -->
-<div class="contact-socials" id="contact">
-  <a class="contact-link" href="https://github.com/AlphaGolf" target="_blank"> <img src="images\icons\twiter.png" alt="GitHub"></a>
-  <a class="contact-link" href="https://www.linkedin.com/in/abari-godswill-978147119" target="_blank"><img src="images\icons\pngwing.com.png" alt="linkedin"></a>
-  <a class="contact-link" href="https://twitter.com/AbariGodsw21339" target="_blank"><img src="images\icons\twiter.png" alt="X"></a>
-  <a class="contact-link" href="tel:+2349033883397">📞 +234 903 388 3397</a>
-</div>
+    <div class="contact-socials" id="contact">
+        <a class="contact-link" href="https://github.com/AlphaGolf" target="_blank"> <img src="images\icons\twiter.png"
+                alt="GitHub"></a>
+        <a class="contact-link" href="https://www.linkedin.com/in/abari-godswill-978147119" target="_blank"><img
+                src="images\icons\pngwing.com.png" alt="linkedin"></a>
+        <a class="contact-link" href="https://twitter.com/AbariGodsw21339" target="_blank"><img
+                src="images\icons\twiter.png" alt="X"></a>
+        <a class="contact-link" href="tel:+2349033883397">📞 +234 903 388 3397</a>
+    </div>
 
 
 
